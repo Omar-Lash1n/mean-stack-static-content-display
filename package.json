@@ -1,0 +1,26 @@
+{
+  "name": "mean-stack-static-content-display",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "cd client && npm install && npm run build -- --configuration production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omar-Lash1n/mean-stack-static-content-display.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Omar-Lash1n/mean-stack-static-content-display/issues"
+  },
+  "homepage": "https://github.com/Omar-Lash1n/mean-stack-static-content-display#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
